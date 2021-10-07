@@ -4,6 +4,7 @@ import Login from '@/components/Login'
 import NotebookList from '@/components/NotebookList'
 import NoteDetail from '@/components/NoteDetail'
 import TrashDetail from '@/components/TrashDetail'
+import Test from '@/components/SelfLogin'
 
 
 Vue.use(Router)
@@ -13,6 +14,10 @@ export default new Router({
     {
       path:'/login',
       component:Login
+    },
+    {
+      path:'/test',
+      component:Test
     },
     {
       path:'/notebooks',
